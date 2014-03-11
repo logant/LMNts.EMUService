@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LMNts.EMUService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="emuIP0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.0.0.000</Value>
+    </Setting>
+    <Setting Name="emuIP1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.0.0.001</Value>
+    </Setting>
+    <Setting Name="emuIP2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.0.0.002</Value>
+    </Setting>
+    <Setting Name="emuIP3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.0.0.003</Value>
+    </Setting>
+    <Setting Name="vizURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://serverName/website.html</Value>
+    </Setting>
+    <Setting Name="unsubscribe" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin@mycompany.com</Value>
+    </Setting>
+    <Setting Name="dbServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ServerNameWhereSQLDatabaseExists</Value>
+    </Setting>
+    <Setting Name="dbName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DatabaseName</Value>
+    </Setting>
+    <Setting Name="dbTableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dbo.OptoEMU22</Value>
+    </Setting>
+    <Setting Name="dbUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UsernameToReadAndWriteDatabase</Value>
+    </Setting>
+    <Setting Name="dbPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PasswordForUser</Value>
+    </Setting>
+    <Setting Name="mailClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mailclient.mycompany.com</Value>
+    </Setting>
+    <Setting Name="optoMMPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2001</Value>
+    </Setting>
+    <Setting Name="commTimeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120000</Value>
+    </Setting>
+    <Setting Name="scanTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="ipv6" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="prevYears" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

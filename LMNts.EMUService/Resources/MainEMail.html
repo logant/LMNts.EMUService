@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<div style="font-size:14px">Hello,</div>
+	<div style="font-size:14px">Here are your daily energy usage statistics brought to you by our herd of OptoEMU22's.</div>
+	<br/>
+    <table style="border-collapse:collapse; text-align:center; font-family:arial; font-size:12px" border="1" cellpadding="5" width="600">
+		<caption style="font-size:24px"><em>Energy Use for #DAY#</em></caption>
+		<col width="100"/>
+		<col width="100"/>
+		<col width="200"/>
+		#PREVCOLWIDTHS#
+		
+		<tr height="20">
+			<th colspan="2">
+				<img src="cid:LMNtsEMU" height="40" width="85">
+			</th>
+			<th style="font-size:14px">#CURRENTDATE#</th>
+			#PREVDATES#
+			
+		</tr>
+		<tr height="20">
+			<td rowspan="2" style="font-size:14px; font-weight:bold">4 West</td>
+			<td style="font-size:14px; font-weight:bold">Day</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(47,36,191)">#D4W# kW</td>
+			#EMU0DAYPREV#
+		</tr>
+		<tr hegith="20">
+			<td style="font-size:14px; font-weight:bold">Night</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(31,24,127)">#N4W# kW</td>
+			#EMU0NIGHTPREV#
+		</tr>
+		<tr height="20">
+			<td rowspan="2" style="font-size:14px; font-weight:bold">4 East</td>
+			<td style="font-size:14px; font-weight:bold">Day</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(191,32,17)">#D4E# kW</td>
+			#EMU1DAYPREV#
+		</tr>
+		<tr hegith="20">
+			<td style="font-size:14px; font-weight:bold">Night</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(127,21,11)">#N4E# kW</td>
+			#EMU1NIGHTPREV#
+		</tr>
+		<tr height="20">
+			<td rowspan="2" style="font-size:14px; font-weight:bold">5 West</td>
+			<td style="font-size:14px; font-weight:bold">Day</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(191,102,6)">#D5W# kW</td>
+			#EMU2DAYPREV#
+		</tr>
+		<tr hegith="20">
+			<td style="font-size:14px; font-weight:bold">Night</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(127,68,4)">#N5W# kW</td>
+			#EMU2NIGHTPREV#
+		</tr>
+		<tr height="20">
+			<td rowspan="2" style="font-size:14px; font-weight:bold">5 East</td>
+			<td style="font-size:14px; font-weight:bold">Day</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(36,191,54)">#D5E# kW</td>
+			#EMU3DAYPREV#
+		</tr>
+		<tr height="20">
+			<td style="font-size:14px; font-weight:bold">Night</td>
+			<td style="font-size:14px; font-weight:bold; color:rgb(24,127,36)">#N5E# kW</td>
+			#EMU3NIGHTPREV#
+		</tr>
+		<tr height="20">
+			<td colspan="2" style="font-size:14px; font-weight:bold">Totals</td>
+			<td style="font-size:14px; font-weight:bold">#TOTAL# kW</td>
+			#TOTALSPREV#
+		</tr>
+	</table>
+    <br/>
+	<br/>
+	<table style="border-collapse:collapse" border="0">
+		<tr>
+			<td>
+				<img src="cid:YAxis" height="300" width="50">
+			</td>
+			<td>
+				<img src="cid:ChartEMU0" height="300" width="150">
+			</td>
+			<td>
+				<img src="cid:ChartEMU1" height="300" width="150">
+			</td>
+			<td>
+				<img src="cid:ChartEMU2" height="300" width="150">
+			</td>
+			<td>
+				<img src="cid:ChartEMU3" height="300" width="150">
+			</td>
+		</tr>
+	</table>
+	<br/>
+    <div style="font-size:14px">For more information, please visit <a href="#DATAVIEW#">#DATAVIEW#</a> (accessible only when connected to the LMN network)</div>
+    <br />
+	<div style="font-size:14px">Notes:</div>
+	<div style="font-size:14px; margin-left:2em">Day spans from 7:00 to 19:00</div>
+	<div style="font-size:14px; margin-left:2em">Night spans from 19:00 to 7:00</div>
+	<br/>
+	<div style="font-size:14px">Thanks,</div>
+	<div style="font-size:14px">LMN EMU Monitor</div>
+	<br/>
+	<div style="font-size:14px">This is a daily email alert from the OptoEMU system.  You are receiving this e-mail because you have been subscribed to the <a href="mailto:EMUGroup@MyCompany.com">EMU</a> distribution list.  To unsubscribe from this mailing list, please contact the <a href="mailto:#UNSUBSCRIBE#?subject=Unsubscribe from EMU&body=Please remove me from the EMU Distribution list.">admin</a>.</div>
+</html>
