@@ -81,23 +81,81 @@ namespace LMNts.EMUService.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EMU_Logo {
+            get {
+                object obj = ResourceManager.GetObject("EMU_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe&quot; &quot;C:\Program Files\EMU Monitor\EMUService.exe&quot;.
+        /// </summary>
+        internal static string install_run_as_admin {
+            get {
+                return ResourceManager.GetString("install_run_as_admin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE HTML&gt;
         ///&lt;html&gt;
         ///	&lt;div style=&quot;font-size:14px&quot;&gt;Hello,&lt;/div&gt;
         ///	&lt;div style=&quot;font-size:14px&quot;&gt;Here are your daily energy usage statistics brought to you by our herd of OptoEMU22&apos;s.&lt;/div&gt;
         ///	&lt;br/&gt;
-        ///    &lt;table style=&quot;border-collapse:collapse; text-align:center; font-family:arial font-size:12px&quot; border=&quot;1&quot; cellpadding=&quot;5&quot; width=&quot;600&quot;&gt;
+        ///    &lt;table style=&quot;border-collapse:collapse; text-align:center; font-family:arial; font-size:12px&quot; border=&quot;1&quot; cellpadding=&quot;5&quot; width=&quot;600&quot;&gt;
         ///		&lt;caption style=&quot;font-size:24px&quot;&gt;&lt;em&gt;Energy Use for #DAY#&lt;/em&gt;&lt;/caption&gt;
         ///		&lt;col width=&quot;100&quot;/&gt;
         ///		&lt;col width=&quot;100&quot;/&gt;
         ///		&lt;col width=&quot;200&quot;/&gt;
         ///		#PREVCOLWIDTHS#
         ///		
-        ///		&lt;tr heigh [rest of string was truncated]&quot;;.
+        ///		&lt;tr heig [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string MainEMail {
             get {
                 return ResourceManager.GetString("MainEMail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;EMU&gt;
+        ///	&lt;Setting Name=&quot;VizURL&quot;&gt;http://lmnergy/emu/index.html&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;4WIP&quot;&gt;0.0.0.000&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;4EIP&quot;&gt;0.0.0.001&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;5WIP&quot;&gt;0.0.0.002&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;5EIP&quot;&gt;0.0.0.003&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;Unsubscribe&quot;&gt;admin@MyCompany.com&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;DBServer&quot;&gt;DatabaseServerName&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;DBName&quot;&gt;DatabaseName&lt;/Setting&gt;
+        ///	&lt;Setting Name=&quot;DBTableName&quot;&gt;dbo.TableName&lt;/Setting&gt;
+        ///	&lt;Setting  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe&quot; /u &quot;C:\Program Files\EMU Monitor\EMUService.exe&quot;.
+        /// </summary>
+        internal static string uninstall_run_as_admin {
+            get {
+                return ResourceManager.GetString("uninstall_run_as_admin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YAxis {
+            get {
+                object obj = ResourceManager.GetObject("YAxis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

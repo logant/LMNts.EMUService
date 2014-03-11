@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EMU>
+	<Setting Name="VizURL">http://lmnergy/emu/index.html</Setting>
+	<Setting Name="4WIP">0.0.0.000</Setting>
+	<Setting Name="4EIP">0.0.0.001</Setting>
+	<Setting Name="5WIP">0.0.0.002</Setting>
+	<Setting Name="5EIP">0.0.0.003</Setting>
+	<Setting Name="Unsubscribe">admin@MyCompany.com</Setting>
+	<Setting Name="DBServer">DatabaseServerName</Setting>
+	<Setting Name="DBName">DatabaseName</Setting>
+	<Setting Name="DBTableName">dbo.TableName</Setting>
+	<Setting Name="DBUser">UsernameForDatabase</Setting>
+	<Setting Name="DBPassword">PasswordForUserWithDatabase</Setting>
+	<Setting Name="MailClient">MailClient.MyCompany.com</Setting>
+	<Setting Name="OptoMMPPort">2001</Setting>
+	<Setting Name="Timeout">120000</Setting>
+	<Setting Name="ScanTime">60000</Setting>
+	<Setting Name="IPV6">false</Setting>
+	<Setting Name="PreviousYears">2</Setting>
+</EMU>
